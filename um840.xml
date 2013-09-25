@@ -28,7 +28,7 @@
 	<project name="l10n/es/gaia.git" path="gaia-l10n/es" remote="mozillaorg" revision="master" />
 	<project name="l10n/pt-BR/gaia.git" path="gaia-l10n/pt-BR" remote="mozillaorg" revision="master" />
 	<project name="l10n/es-ES/gecko.git" path="gecko-l10n/es-ES" remote="mozillaorg" revision="6d997c52a459e044b4370deb2a42acf015dc8661" />
-	<project name="l10n/pt-BR/gecko.git" path="gecko-l10n/pt-BR" remote="mozillaorg" revision="master" />
+	<project name="l10n/pt-BR/gecko.git" path="gecko-l10n/pt-BR" remote="mozillaorg" revision="acf79a9496038a000c176ba4ee0d8f153efc7eb6" />
 	<project name="librecovery" path="librecovery" remote="b2g" revision="master" />
 	<project name="moztt" path="external/moztt" remote="b2g" revision="master" />
 	<project name="platform_external_apriori" path="external/apriori" remote="b2g" revision="master" />
