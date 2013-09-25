@@ -89,7 +89,6 @@
 	<project name="platform/external/tinyalsa" path="external/tinyalsa" />
 	<project name="platform/external/tremolo" path="external/tremolo" />
 	<project name="platform/external/webp" path="external/webp" />
-	<project name="platform/external/webrtc" path="external/webrtc" />
 	<project name="platform/external/wpa_supplicant" path="external/wpa_supplicant" />
 	<project name="platform/external/hostap" path="external/hostap" />
 	<project name="platform/external/yaffs2" path="external/yaffs2" />
