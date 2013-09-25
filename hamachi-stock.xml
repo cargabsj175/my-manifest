@@ -10,14 +10,14 @@
 	<default remote="caf" sync-j="4" />
 	
 	<!-- build -->
-	<project name="platform/build" path="build" remote="b2g" revision="5dab0473b111b2865778333335352261d9ab0e37">
+	<project name="platform_build" path="build" remote="b2g" revision="5dab0473b111b2865778333335352261d9ab0e37">
 		<copyfile dest="Makefile" src="core/root.mk"/>
 		<copyfile dest="fastboot_images.sh" src="fastboot_images.sh"/>
 	</project>
 		
 	<!-- B2G -->
 	<project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
-	<project name="fake-dalvik" path="dalvik" remote="b2g" revision="6a6ca1dc8f9b69e195fe1544d428899afd48ee01"/>
+	<project name="fake-dalvik" path="dalvik" remote="b2g" revision="master"/>
 	<project name="gaia.git" path="gaia" remote="mozillaorg" revision="4522f2adcad582daf36815c94db66e6775a21c70"/>
 	<project name="gecko.git" path="gecko" remote="mozillaorg" revision="d0c0543a22dc7283ef69150110691133997dc4ad"/>
 	<project name="gonk-misc" path="gonk-misc" remote="b2g" revision="96e304ff7e27c851623ef5eb1683dc25acac8299"/>
