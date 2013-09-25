@@ -23,11 +23,11 @@
 	<project name="gecko.git" path="gecko" remote="mozillaorg" revision="refs/heads/v1.0.1" />
 	<project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master" />
 	<project name="gonk-patches" path="patches" remote="b2g" revision="master" />
-	<project name="l10n/en-US/gaia.git" path="gaia-l10n/en-US" remote="mozillaorg" revision="refs/heads/v1.0.1" />
-	<project name="l10n/es/gaia.git" path="gaia-l10n/es" remote="mozillaorg" revision="refs/heads/v1.0.1" />
-	<project name="l10n/pt-BR/gaia.git" path="gaia-l10n/pt-BR" remote="mozillaorg" revision="refs/heads/v1.0.1" />
-	<project name="l10n/es-ES/gecko.git" path="gecko-l10n/es-ES" remote="mozillaorg" revision="refs/heads/v1.0.1" />
-	<project name="l10n/pt-BR/gecko.git" path="gecko-l10n/pt-BR" remote="mozillaorg" revision="refs/heads/v1.0.1" />
+	<project name="l10n/en-US/gaia.git" path="gaia-l10n/en-US" remote="mozillaorg" revision="master" />
+	<project name="l10n/es/gaia.git" path="gaia-l10n/es" remote="mozillaorg" revision="master" />
+	<project name="l10n/pt-BR/gaia.git" path="gaia-l10n/pt-BR" remote="mozillaorg" revision="master" />
+	<project name="l10n/es-ES/gecko.git" path="gecko-l10n/es-ES" remote="mozillaorg" revision="master" />
+	<project name="l10n/pt-BR/gecko.git" path="gecko-l10n/pt-BR" remote="mozillaorg" revision="master" />
 	<project name="librecovery" path="librecovery" remote="b2g" revision="master" />
 	<project name="moztt" path="external/moztt" remote="b2g" revision="master" />
 	<project name="platform_external_apriori" path="external/apriori" remote="b2g" revision="master" />
