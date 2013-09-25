@@ -5,6 +5,7 @@
 	<remote fetch="git://github.com/mozilla-b2g/" name="b2g" />
 	<remote fetch="git@shanghai.gitweb.com:" name="jgs" review="http://172.24.61.94:8081"/>
 	<remote fetch="git://github.com/apitrace/" name="apitrace"/>
+	<remote fetch="https://android.googlesource.com/" name="aosp" />
 	<default remote="jgs"/>
 	
 	<!-- build -->
