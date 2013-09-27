@@ -13,7 +13,6 @@
 	<!-- build -->	
 	<project name="platform_build" path="build" remote="b2g" revision="master">
 		<copyfile dest="Makefile" src="core/root.mk" />
-		<copyfile dest="fastboot_images.sh" src="fastboot_images.sh" />
 	</project>
 		
 	<!-- B2G -->
@@ -26,26 +25,24 @@
 	<project name="l10n/en-US/gaia.git" path="gaia-l10n/en-US" remote="mozillaorg" revision="master" />
 	<project name="l10n/es/gaia.git" path="gaia-l10n/es" remote="mozillaorg" revision="master" />
 	<project name="l10n/pt-BR/gaia.git" path="gaia-l10n/pt-BR" remote="mozillaorg" revision="master" />
-	<project name="l10n/es-ES/gecko.git" path="gecko-l10n/es-ES" remote="mozillaorg" revision="6d997c52a459e044b4370deb2a42acf015dc8661" />
-	<project name="l10n/pt-BR/gecko.git" path="gecko-l10n/pt-BR" remote="mozillaorg" revision="acf79a9496038a000c176ba4ee0d8f153efc7eb6" />
+	<project name="l10n/es-ES/gecko.git" path="gecko-l10n/es-ES" remote="mozillaorg" revision="986a097a8e916ca1545ba5b1b9fda34519f13989" />
+	<project name="l10n/pt-BR/gecko.git" path="gecko-l10n/pt-BR" remote="mozillaorg" revision="ff2b6dde0f2c0918380065f143a8a053f87474af" />
 	<project name="librecovery" path="librecovery" remote="b2g" revision="master" />
 	<project name="moztt" path="external/moztt" remote="b2g" revision="master" />
-	<project name="platform_external_apriori" path="external/apriori" remote="b2g" revision="master" />
-	<project name="platform_external_elfcopy" path="external/elfcopy" remote="b2g" revision="master" />
 	<project name="rilproxy" path="rilproxy" remote="b2g" revision="master" />
-	<project name="screencap-gonk" path="external/screencap-gonk" remote="b2g" revision="master" />
 	<project name="unbootimg" path="external/unbootimg" remote="b2g" revision="master" />
 		
 	<!-- CyanogenMod -->
 	<project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.2" />
 	
 	<!-- AOSP -->
-	<project name="device/common" path="device/common" />
-	<project name="device/sample" path="device/sample" />
-	<project name="platform/abi/cpp" path="abi/cpp" />
+	<project name="platform/abi/cpp" path="abi/cpp" />	
 	<project name="platform/bionic" path="bionic" />
 	<project name="platform/bootable/recovery" path="bootable/recovery" />
 	<project name="platform/development" path="development" />
+	<project name="device/common" path="device/common" />
+	<project name="device/sample" path="device/sample" />
+	<project name="platform_external_apriori" path="external/apriori" remote="b2g" revision="master" />
 	<project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" />
 	<project name="platform/external/bluetooth/glib" path="external/bluetooth/glib" />
 	<project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump" />
@@ -54,7 +51,8 @@
 	<project name="platform/external/dbus" path="external/dbus" />
 	<project name="platform/external/dhcpcd" path="external/dhcpcd" />
 	<project name="platform/external/dnsmasq" path="external/dnsmasq" />
-	<project name="platform/external/elfutils" path="external/elfutils" />
+	<project name="platform_external_elfcopy" path="external/elfcopy" remote="b2g" revision="master" />
+	<project name="platform_external_elfutils" path="external/elfutils" remote="b2g" revision="master" />
 	<project name="platform/external/e2fsprogs" path="external/e2fsprogs" />
 	<project name="platform/external/expat" path="external/expat" />
 	<project name="platform/external/fdlibm" path="external/fdlibm" />
@@ -77,10 +75,11 @@
 	<project name="platform/external/openssl" path="external/openssl" />
 	<project name="platform/external/protobuf" path="external/protobuf" />
 	<project name="platform/external/safe-iop" path="external/safe-iop" />
+	<project name="screencap-gonk" path="external/screencap-gonk" remote="b2g" revision="master" />
 	<project name="platform/external/skia" path="external/skia" />
 	<project name="platform/external/sonivox" path="external/sonivox" />
 	<project name="platform/external/speex" path="external/speex" />
-	<project name="platform/external/sqlite" path="external/sqlite" />
+	<project name="platform/external/sqlite" path="external/sqlite" revision="fb30e613139b8836fdc8e81e166cf3a76e5fa17f" />
 	<project name="platform/external/stlport" path="external/stlport" />
 	<project name="platform/external/strace" path="external/strace" />
 	<project name="platform/external/svox" path="external/svox" revision="ics_strawberry" />
