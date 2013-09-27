@@ -116,7 +116,7 @@
 	
 	<!-- um840 -->
 	<project path="external/webrtc" name="android_external_webrtc" remote="cargabsj175" revision="ics-armv6" />
-	<project path="device/huawei/um840" name="android_device_huawei_um840" remote="cargabsj175" revision="b2g" />
+	<project path="device/huawei/um840" name="android_device_huawei_um840" remote="cargabsj175" revision="master" />
 	<project path="kernel/huawei/um840" name="android_kernel_huawei_um840" remote="cargabsj175" revision="master" />
 	<project path="vendor/huawei" name="proprietary_vendor_huawei" remote="cargabsj175" revision="cm-10.1" />
   
