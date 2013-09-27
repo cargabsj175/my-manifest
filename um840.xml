@@ -20,8 +20,8 @@
 	<!-- B2G -->
 	<project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 	<project name="fake-dalvik" path="dalvik" remote="b2g" revision="master" />
-	<project name="gaia.git" path="gaia" remote="mozillaorg" revision="refs/heads/v1.0.1" />
-	<project name="gecko.git" path="gecko" remote="mozillaorg" revision="refs/heads/v1.0.1" />
+	<project name="gaia.git" path="gaia" remote="mozillaorg" revision="refs/heads/v1.0.0" />
+	<project name="gecko.git" path="gecko" remote="mozillaorg" revision="refs/heads/v1.0.0" />
 	<project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master" />
 	<project name="gonk-patches" path="patches" remote="b2g" revision="master" />
 	<project name="l10n/en-US/gaia.git" path="gaia-l10n/en-US" remote="mozillaorg" revision="master" />
@@ -55,7 +55,7 @@
 	<project name="platform/external/dbus" path="external/dbus" />
 	<project name="platform/external/dhcpcd" path="external/dhcpcd" />
 	<project name="platform/external/dnsmasq" path="external/dnsmasq" />
-	<project name="platform/external/elfutils" path="external/elfutils" />
+	<project name="platform_external_elfutils" path="external/elfutils" remote="b2g" revision="master" />
 	<project name="platform/external/e2fsprogs" path="external/e2fsprogs" />
 	<project name="platform/external/expat" path="external/expat" />
 	<project name="platform/external/fdlibm" path="external/fdlibm" />
