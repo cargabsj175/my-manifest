@@ -7,7 +7,7 @@
 	<remote fetch="git://github.com/cargabsj175/" name="cargabsj175"  />
 	<remote fetch="https://android.googlesource.com/" name="aosp" />
 	<remote fetch="git://codeaurora.org/" name="caf" />
-	<remote fetch="https://git.mozilla.org/releases" name="mozillaorg" />
+	<remote fetch="https://git.mozilla.org/" name="mozillaorg" />
 	<remote fetch="https://github.com/CyanogenMod" name="cm" />
 	<default remote="caf" revision="b2g/ics_strawberry_v1" sync-j="4" />
 	
@@ -19,15 +19,15 @@
 	<!-- B2G -->
 	<project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 	<project name="fake-dalvik" path="dalvik" remote="b2g" revision="master" />
-	<project name="gaia.git" path="gaia" remote="mozillaorg" revision="refs/heads/v1.0.0" />
-	<project name="gecko.git" path="gecko" remote="mozillaorg" revision="refs/heads/v1.0.0" />
+	<project name="releases/gaia.git" path="gaia" remote="mozillaorg" revision="refs/heads/v1.0.0" />
+	<project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="refs/heads/v1.0.0" />
 	<project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master" />
 	<project name="gonk-patches" path="patches" remote="b2g" revision="master" />
-	<project name="l10n/en-US/gaia.git" path="gaia-l10n/en-US" remote="mozillaorg" revision="master" />
-	<project name="l10n/es/gaia.git" path="gaia-l10n/es" remote="mozillaorg" revision="master" />
-	<project name="l10n/pt-BR/gaia.git" path="gaia-l10n/pt-BR" remote="mozillaorg" revision="master" />
-	<!--project name="l10n/es-ES/gecko.git" path="gecko-l10n/es-ES" remote="mozillaorg" revision="986a097a8e916ca1545ba5b1b9fda34519f13989" /-->
-	<!--project name="l10n/pt-BR/gecko.git" path="gecko-l10n/pt-BR" remote="mozillaorg" revision="ff2b6dde0f2c0918380065f143a8a053f87474af" /-->
+	<project name="releases/l10n/en-US/gaia.git" path="gaia-l10n/en-US" remote="mozillaorg" revision="master" />
+	<project name="releases/l10n/es/gaia.git" path="gaia-l10n/es" remote="mozillaorg" revision="master" />
+	<project name="releases/l10n/pt-BR/gaia.git" path="gaia-l10n/pt-BR" remote="mozillaorg" revision="master" />
+	<!--project name="releases/l10n/es-ES/gecko.git" path="gecko-l10n/es-ES" remote="mozillaorg" revision="986a097a8e916ca1545ba5b1b9fda34519f13989" /-->
+	<!--project name="releases/l10n/pt-BR/gecko.git" path="gecko-l10n/pt-BR" remote="mozillaorg" revision="ff2b6dde0f2c0918380065f143a8a053f87474af" /-->
 	<project name="librecovery" path="librecovery" remote="b2g" revision="master" />
 	<project name="moztt" path="external/moztt" remote="b2g" revision="master" />
 	<project name="platform_external_apriori" path="external/apriori" remote="b2g" revision="master" />
@@ -98,7 +98,7 @@
 	<project name="platform/hardware/libhardware" path="hardware/libhardware" />
 	<project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" />
 	<project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" />
-	<project name="platform/hardware/qcom/display" path="hardware/qcom/display" />
+	<project name="b2g/hardware_qcom_display.git" path="hardware/qcom/display" remote="mozillaorg" revision="master" />
 	<project name="platform/hardware/qcom/media" path="hardware/qcom/media" />
 	<project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" />
 	<project name="platform/hardware/msm7k" path="hardware/msm7k" />
