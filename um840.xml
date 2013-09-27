@@ -14,7 +14,6 @@
 	<!-- build -->	
 	<project name="platform_build" path="build" remote="b2g" revision="master">
 		<copyfile dest="Makefile" src="core/root.mk" />
-		<copyfile dest="fastboot_images.sh" src="fastboot_images.sh" />
 	</project>
 		
 	<!-- B2G -->
@@ -81,7 +80,7 @@
 	<project name="platform/external/skia" path="external/skia" />
 	<project name="platform/external/sonivox" path="external/sonivox" />
 	<project name="platform/external/speex" path="external/speex" />
-	<project name="platform/external/sqlite" path="external/sqlite" />
+	<project name="platform/external/sqlite" path="external/sqlite" revision="fb30e613139b8836fdc8e81e166cf3a76e5fa17f" />
 	<project name="platform/external/stlport" path="external/stlport" />
 	<project name="platform/external/strace" path="external/strace" />
 	<project name="platform/external/svox" path="external/svox" revision="ics_strawberry" />
