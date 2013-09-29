@@ -11,6 +11,8 @@
           fetch="git://codeaurora.org/" />
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases" />
+  <remote name="cm"
+		  fetch="http://github.com/CyanogenMod/">
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
   <default revision="b2g/ics_strawberry_v1"
            remote="caf"
@@ -24,11 +26,15 @@
   <project path="gaia" name="gaia.git" remote="mozillaorg" revision="master" />
   <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
+  <project name="l10n/es/gaia.git" path="gaia-l10n/es" remote="mozillaorg" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="librecovery" name="librecovery" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
   <project path="patches" name="gonk-patches" remote="b2g" revision="master" />
+  
+  <!-- CyanogenMod -->
+  <project name="android_external_busybox" path="external/busybox" remote="cm" revision="cm-10.2" />
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
