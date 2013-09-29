@@ -12,7 +12,7 @@
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases" />
   <remote name="cm"
-		  fetch="http://github.com/CyanogenMod/">
+		  fetch="http://github.com/CyanogenMod/" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
   <default revision="b2g/ics_strawberry_v1"
            remote="caf"
