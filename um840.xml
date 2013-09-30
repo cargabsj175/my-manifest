@@ -19,8 +19,8 @@
 	<!-- B2G -->
 	<project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 	<project name="fake-dalvik" path="dalvik" remote="b2g" revision="master" />
-	<project name="releases/gaia.git" path="gaia" remote="mozillaorg" revision="refs/heads/v1.0.0" />
-	<project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="refs/heads/v1.0.0" />
+	<project name="releases/gaia.git" path="gaia" remote="mozillaorg" revision="master" />
+	<project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="master" />
 	<project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master" />
 	<project name="gonk-patches" path="patches" remote="b2g" revision="master" />
 	<project name="releases/l10n/en-US/gaia.git" path="gaia-l10n/en-US" remote="mozillaorg" revision="master" />
@@ -103,7 +103,7 @@
 	<project name="b2g/hardware_qcom_display.git" path="hardware/qcom/display" remote="mozillaorg" revision="master" />
 	<project name="platform/hardware/qcom/media" path="hardware/qcom/media" />
 	<project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" />
-	<project name="platform/hardware/msm7k" path="hardware/msm7k" />
+	<project name="platform/hardware/msm7k" path="hardware/msm7k" revision="b2g/ics_strawberry_v1" />
 	<project name="platform/libcore" path="libcore" />
 	<project name="platform/ndk" path="ndk" />
 	<project name="platform/prebuilt" path="prebuilt" />
