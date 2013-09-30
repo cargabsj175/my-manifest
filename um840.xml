@@ -99,7 +99,7 @@
 	<project name="platform/frameworks/support" path="frameworks/support" />
 	<project name="platform/hardware/libhardware" path="hardware/libhardware" />
 	<project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" />
-	<project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" />
+	<project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="b2g/ics_strawberry_v1" />
 	<project name="b2g/hardware_qcom_display.git" path="hardware/qcom/display" remote="mozillaorg" revision="master" />
 	<project name="platform/hardware/qcom/media" path="hardware/qcom/media" />
 	<project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" />
