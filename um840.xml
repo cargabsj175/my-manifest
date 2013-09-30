@@ -91,7 +91,7 @@
 	<project name="platform/external/tremolo" path="external/tremolo" />
 	<project name="platform/external/webp" path="external/webp"/>
 	<project name="platform/external/wpa_supplicant" path="external/wpa_supplicant" />
-	<project name="platform/external/hostap" path="external/hostap" />
+	<project name="platform/external/hostap" path="external/hostap" revision="b2g/ics_strawberry_v1" />
 	<project name="platform/external/yaffs2" path="external/yaffs2" />
 	<project name="platform/external/zlib" path="external/zlib" />
 	<project name="platform/frameworks/base" path="frameworks/base"/>
