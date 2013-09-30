@@ -87,12 +87,12 @@
 	<project name="platform/external/tagsoup" path="external/tagsoup" />
 	<project name="platform/external/tinyalsa" path="external/tinyalsa" />
 	<project name="platform/external/tremolo" path="external/tremolo" />
-	<project name="platform/external/webp" path="external/webp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1"/>
+	<project name="platform/external/webp" path="external/webp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
 	<project name="platform/external/wpa_supplicant" path="external/wpa_supplicant" />
 	<project name="platform/external/hostap" path="external/hostap" />
 	<project name="platform/external/yaffs2" path="external/yaffs2" />
 	<project name="platform/external/zlib" path="external/zlib" />
-	<project name="platform/frameworks/base" path="frameworks/base" />
+	<project name="platform/frameworks/base" path="frameworks/base" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
 	<project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" />
 	<project name="platform/frameworks/support" path="frameworks/support" />
 	<project name="platform/hardware/libhardware" path="hardware/libhardware" />
