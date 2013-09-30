@@ -65,7 +65,7 @@
 	<project name="platform/external/giflib" path="external/giflib" />
 	<project name="platform/external/gtest" path="external/gtest" />
 	<project name="platform/external/harfbuzz" path="external/harfbuzz" />
-	<project name="platform/external/icu4c" path="external/icu4c" />
+	<project name="platform/external/icu4c" path="external/icu4c" revision="b2g/ics_strawberry_v1" />
 	<project name="platform/external/iptables" path="external/iptables" />
 	<project name="platform/external/jpeg" path="external/jpeg" />
 	<project name="platform/external/libgsm" path="external/libgsm" />
