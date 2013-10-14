@@ -12,24 +12,24 @@
 	<default remote="caf" revision="refs/tags/android-4.0.4_r2.1" sync-j="4" />
 	
 	<!-- build -->	
-	<project name="platform_build" path="build" remote="b2g" revision="v1-train">
+	<project name="platform_build" path="build" remote="b2g" revision="v1.2">
 		<copyfile dest="Makefile" src="core/root.mk" />
 	</project>
 		
 	<!-- B2G -->
 	<project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
-	<project name="fake-dalvik" path="dalvik" remote="b2g" revision="v1-train" />
-	<project name="releases/gaia.git" path="gaia" remote="mozillaorg" revision="v1-train" />
-	<project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="gecko-18" />
+	<project name="fake-dalvik" path="dalvik" remote="b2g" revision="v1.2" />
+	<project name="releases/gaia.git" path="gaia" remote="mozillaorg" revision="v1.2" />
+	<project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="v1.2" />
 	<project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v1.2" />
 	<project name="gonk-patches" path="patches" remote="b2g" revision="v1.2" />
-	<project name="librecovery" path="librecovery" remote="b2g" revision="v1-train" />
-	<project name="moztt" path="external/moztt" remote="b2g" revision="v1-train" />
-	<project name="platform_external_apriori" path="external/apriori" remote="b2g" revision="v1-train" />
-	<project name="platform_external_elfcopy" path="external/elfcopy" remote="b2g" revision="v1-train" />
-	<project name="rilproxy" path="rilproxy" remote="b2g" revision="v1-train" />
-	<project name="screencap-gonk" path="external/screencap-gonk" remote="b2g" revision="v1-train" />
-	<project name="unbootimg" path="external/unbootimg" remote="b2g" revision="v1-train" />
+	<project name="librecovery" path="librecovery" remote="b2g" revision="v1.2" />
+	<project name="moztt" path="external/moztt" remote="b2g" revision="v1.2" />
+	<project name="platform_external_apriori" path="external/apriori" remote="b2g" revision="v1.2" />
+	<project name="platform_external_elfcopy" path="external/elfcopy" remote="b2g" revision="v1.2" />
+	<project name="rilproxy" path="rilproxy" remote="b2g" revision="v1.2" />
+	<project name="screencap-gonk" path="external/screencap-gonk" remote="b2g" revision="v1.2" />
+	<project name="unbootimg" path="external/unbootimg" remote="b2g" revision="v1.2" />
 		
 	<!-- CyanogenMod -->
 	<project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.2" />
@@ -53,7 +53,7 @@
 	<project name="platform/external/dbus" path="external/dbus" />
 	<project name="platform/external/dhcpcd" path="external/dhcpcd" />
 	<project name="platform/external/dnsmasq" path="external/dnsmasq" />
-	<project name="platform_external_elfutils" path="external/elfutils" remote="b2g" revision="v1-train" />
+	<project name="platform_external_elfutils" path="external/elfutils" remote="b2g" revision="v1.2" />
 	<project name="platform/external/e2fsprogs" path="external/e2fsprogs" />
 	<project name="platform/external/expat" path="external/expat" />
 	<project name="platform/external/fdlibm" path="external/fdlibm" />
