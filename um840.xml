@@ -12,30 +12,24 @@
 	<default remote="caf" revision="refs/tags/android-4.0.4_r2.1" sync-j="4" />
 	
 	<!-- build -->	
-	<project name="platform_build" path="build" remote="b2g" revision="master">
+	<project name="platform_build" path="build" remote="b2g" revision="v1-train">
 		<copyfile dest="Makefile" src="core/root.mk" />
 	</project>
 		
 	<!-- B2G -->
 	<project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
-	<project name="fake-dalvik" path="dalvik" remote="b2g" revision="master" />
-	<project name="releases/gaia.git" path="gaia" remote="mozillaorg" revision="master" />
-	<project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="master" />
-	<project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master" />
-	<project name="gonk-patches" path="patches" remote="b2g" revision="master" />
-	<project name="releases/l10n/es-ES/gecko" path="gecko-l10n/es-ES" remote="mozillaorg" revision="986a097a8e916ca1545ba5b1b9fda34519f13989"/>
-	<project name="releases/l10n/pt-BR/gecko" path="gecko-l10n/pt-BR" remote="mozillaorg" revision="ff2b6dde0f2c0918380065f143a8a053f87474af"/>
-	<project name="releases/l10n/en-US/gaia.git" path="gaia-l10n/en-US" remote="mozillaorg" revision="master" />
-	<project name="releases/l10n/es/gaia.git" path="gaia-l10n/es" remote="mozillaorg" revision="master" />
-	<project name="releases/l10n/pt-BR/gaia.git" path="gaia-l10n/pt-BR" remote="mozillaorg" revision="master" />
-	<project name="releases/l10n/compare-locales.git" path="compare-locales" remote="mozillaorg" revision="b1809e31d8b64ec297bd1a7c86615a081eefd7d0" />
-	<project name="librecovery" path="librecovery" remote="b2g" revision="master" />
-	<project name="moztt" path="external/moztt" remote="b2g" revision="master" />
-	<project name="platform_external_apriori" path="external/apriori" remote="b2g" revision="master" />
-	<project name="platform_external_elfcopy" path="external/elfcopy" remote="b2g" revision="master" />
-	<project name="rilproxy" path="rilproxy" remote="b2g" revision="master" />
-	<project name="screencap-gonk" path="external/screencap-gonk" remote="b2g" revision="master" />
-	<project name="unbootimg" path="external/unbootimg" remote="b2g" revision="master" />
+	<project name="fake-dalvik" path="dalvik" remote="b2g" revision="v1-train" />
+	<project name="releases/gaia.git" path="gaia" remote="mozillaorg" revision="v1-train" />
+	<project name="releases/gecko.git" path="gecko" remote="mozillaorg" revision="v1-train" />
+	<project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v1-train" />
+	<project name="gonk-patches" path="patches" remote="b2g" revision="v1-train" />
+	<project name="librecovery" path="librecovery" remote="b2g" revision="v1-train" />
+	<project name="moztt" path="external/moztt" remote="b2g" revision="v1-train" />
+	<project name="platform_external_apriori" path="external/apriori" remote="b2g" revision="v1-train" />
+	<project name="platform_external_elfcopy" path="external/elfcopy" remote="b2g" revision="v1-train" />
+	<project name="rilproxy" path="rilproxy" remote="b2g" revision="v1-train" />
+	<project name="screencap-gonk" path="external/screencap-gonk" remote="b2g" revision="v1-train" />
+	<project name="unbootimg" path="external/unbootimg" remote="b2g" revision="v1-train" />
 		
 	<!-- CyanogenMod -->
 	<project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.2" />
@@ -59,7 +53,7 @@
 	<project name="platform/external/dbus" path="external/dbus" />
 	<project name="platform/external/dhcpcd" path="external/dhcpcd" />
 	<project name="platform/external/dnsmasq" path="external/dnsmasq" />
-	<project name="platform_external_elfutils" path="external/elfutils" remote="b2g" revision="master" />
+	<project name="platform_external_elfutils" path="external/elfutils" remote="b2g" revision="v1-train" />
 	<project name="platform/external/e2fsprogs" path="external/e2fsprogs" />
 	<project name="platform/external/expat" path="external/expat" />
 	<project name="platform/external/fdlibm" path="external/fdlibm" />
